@@ -54,4 +54,4 @@ $(document).ready(function(){
 ```
 
 Click the link for live demo:
-[a http://jsfiddle.net/6mB8Z/1//](http://jsfiddle.net/6mB8Z/1//)
+[a http://jsfiddle.net/6mB8Z/1//](http://jsfiddle.net/6mB8Z/1/)
