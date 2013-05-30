@@ -47,7 +47,7 @@
     }
 
     //image resize component
-    $.fn.extend({imageRescale:function(options){
+    $.fn.extend({imageRescaler:function(options){
         var opt = $.extend({}, $._ImageRescaler.defaults, options)
         return this.each(function(){
             new $._ImageRescaler(this, opt);
