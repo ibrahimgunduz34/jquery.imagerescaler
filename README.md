@@ -8,14 +8,22 @@ For example:
 
 ##### HTML:
 ```html
-<div id="imagePreview">
+<div class="imagePreview">
     <img src="http://3.bp.blogspot.com/-FEw8WEPmoHc/UIgfIeFSbKI/AAAAAAAAAE8/gtVvg5a6B0E/s1600/1.jpg" />
+</div>
+<br/>
+<div class="imagePreview">
+    <img src="http://www.sibelilaclama.com/wp-content/uploads/yesil_doga_manzara.jpg" />
+</div>
+<br/>
+<div class="imagePreview">
+    <img src="http://www.mimdap.org/images/icmekan/Light-Folded/11.JPG" />
 </div>
 ```
 
 ##### CSS:
 ```css
-#imagePreview {
+.imagePreview {
     width:320px;
     height:250px;
     background-color:#EFEFEF;
@@ -23,7 +31,7 @@ For example:
     position:relative;
 }
 
-#imagePreview img {
+.imagePreview img {
     position: absolute;
     margin: auto;
     top: 0;
@@ -37,7 +45,7 @@ And... This is your image rescaler code:
 ##### Javascript:
 ```js
 $(document).ready(function(){
-    $('#imagePreview img').imageRescaler({canvas:{
+    $('.imagePreview img').imageRescaler({canvas:{
                                             width:320,
                                             height:240
                                           }, 
@@ -46,4 +54,4 @@ $(document).ready(function(){
 ```
 
 Click the link for live demo:
-[a http://jsfiddle.net/6mB8Z/](http://jsfiddle.net/6mB8Z/)
+[a http://jsfiddle.net/6mB8Z/1//](http://jsfiddle.net/6mB8Z/1//)
