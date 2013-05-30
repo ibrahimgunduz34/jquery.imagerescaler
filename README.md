@@ -6,7 +6,7 @@ standard box size as easly.
 
 For example:
 
-##### HTML Code:
+##### HTML:
 ```html
 <div id="imagePreview">
     <img src="http://3.bp.blogspot.com/-FEw8WEPmoHc/UIgfIeFSbKI/AAAAAAAAAE8/gtVvg5a6B0E/s1600/1.jpg" />
@@ -34,7 +34,7 @@ For example:
 ```
 
 And... This is your image rescaler code:
-##### Javascript Code:
+##### Javascript:
 ```js
 $(document).ready(function(){
     $('#imagePreview img').imageRescaler({canvas:{
